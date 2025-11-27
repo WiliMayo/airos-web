@@ -299,8 +299,6 @@ header .intro-text .intro-lead-in {
     margin-bottom: 20px;
     
     color: white; /* Relleno blanco */
-    -webkit-text-stroke: 1px black; /* Borde negro de 2px */
-    text-shadow: 1px 1px 0px #000; /* Sombra sólida para darle peso */
 }
 
 header .intro-text .intro-heading {
@@ -320,10 +318,13 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: 'Michroma', sans-serif !important;
         font-size: 40px;
-        font-style: italic;
+        font-style: normal !important;
         line-height: 40px;
+        
+        text-transform: uppercase;
+        color: white;
     }
 
     header .intro-text .intro-heading {
