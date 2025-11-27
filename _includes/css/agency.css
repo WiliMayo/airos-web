@@ -176,8 +176,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Michroma","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400; /* Michroma solo tiene un peso, pero es grueso */
+    text-transform: uppercase;
+    letter-spacing: -1px; /* Las letras de tu imagen están pegaditas */
+    
+    /* TRUCO PARA EL BORDE (OUTLINE) */
+    color: white; /* Relleno blanco */
+    -webkit-text-stroke: 2px black; /* Borde negro de 2px */
+    text-shadow: 2px 2px 0px #000; /* Sombra sólida para darle peso */
 }
 
 .navbar-default .navbar-brand:hover,
