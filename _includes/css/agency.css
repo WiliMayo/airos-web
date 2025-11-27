@@ -180,9 +180,6 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -1px;
-    font-size: 22px !important;
-    font-style: normal !important;
-    margin-bottom: 20px;
     
     color: white; /* Relleno blanco */
     -webkit-text-stroke: 1px black; /* Borde negro de 2px */
@@ -297,6 +294,9 @@ header .intro-text .intro-lead-in {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -1px;
+    font-size: 22px !important;
+    font-style: normal !important;
+    margin-bottom: 20px;
     
     color: white; /* Relleno blanco */
     -webkit-text-stroke: 1px black; /* Borde negro de 2px */
