@@ -177,11 +177,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: 'Michroma', sans-serif;
-    font-weight: 400; /* Michroma solo tiene un peso, pero es grueso */
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: -1px; /* Las letras de tu imagen están pegaditas */
+    letter-spacing: -1px;
+    font-size: 22px !important;
+    margin-bottom: 20px;
     
-    /* TRUCO PARA EL BORDE (OUTLINE) */
     color: white; /* Relleno blanco */
     -webkit-text-stroke: 1px black; /* Borde negro de 2px */
     text-shadow: 1px 1px 0px #000; /* Sombra sólida para darle peso */
@@ -291,11 +292,14 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    
+    color: white; /* Relleno blanco */
+    -webkit-text-stroke: 1px black; /* Borde negro de 2px */
+    text-shadow: 1px 1px 0px #000; /* Sombra sólida para darle peso */
 }
 
 header .intro-text .intro-heading {
