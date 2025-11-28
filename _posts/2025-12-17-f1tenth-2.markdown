@@ -1,15 +1,15 @@
 ---
-title: F1TENTH RoboRacer
-subtitle: 1er y 2do Lugar - Navegación Autónoma
+title: Dreams
+subtitle: Website Design
 layout: default
-modal-id: 101
-date: 2025-12-17
-img: roboracer.jpg
-thumbnail: roboracer-thumb.jpg
-alt: Equipos ganadores F1TENTH RoboRacer
-project-date: October 2014
-client: Competencia RoboRacer Ecuador
+modal-id: 998
+date: 2014-07-18
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
 category: Proyecto
-description: Nuestros equipos de AIROS (Artificial Intelligence and Robotics Society - ESPOL).
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
