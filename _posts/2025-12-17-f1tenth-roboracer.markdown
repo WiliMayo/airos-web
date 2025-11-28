@@ -8,8 +8,8 @@ alt: Equipos ganadores F1TENTH RoboRacer
 title: F1TENTH: RoboRacer
 subtitle: 1er y 2do Lugar - Navegación Autónoma
 client: Competencia RoboRacer Ecuador
+project-date: April 2014
 category: Proyecto
-repo: "https://github.com/widegonz/PoliRacers"
 description: Nuestros equipos de AIROS (Artificial Intelligence and Robotics Society - ESPOL).
 
 ---
