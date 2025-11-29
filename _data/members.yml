@@ -4,49 +4,49 @@
 leadership:
   - name: "Juan Sánchez"
     role: "Presidente"
-    img: "presi.png"
+    img: "Juan-Sanchez.jpg"
     github: "https://github.com/tu-usuario"
     linkedin: "https://linkedin.com/in/tu-usuario"
     portfolio: "https://tuweb.com"
 
   - name: "Héctor La Mota"
     role: "Vicepresidente"
-    img: "vice.png"
+    img: "Hector-La-Mota.jpg"
     linkedin: "#"
 
   - name: "Ph.D. Nabih Pico"
     role: "Advisor / Consejero"
-    img: "nabih.png"
+    img: "nabih.jpg"
     linkedin: "#"
 
   - name: "Juan Duran"
     role: "Tesorero / Director Energía Hibrida"
-    img: "tesorero.png"
+    img: "Juan-Duran.jpg"
     
   - name: "Micaela Anamise"
     role: "Secretaria"
-    img: "secretario.png"
+    img: "Micaela-Anamise.jpg"
 
   - name: "Daniel Chávez"
     role: "Director Humanoides"
-    img: "lider1.png"
+    img: "Daniel-Chavez.jpg"
     github: "#"
 
   - name: "Carolina Sánchez"
     role: "Directora Navegación Autónoma"
-    img: "lider2.png"
+    img: "Carolina-Sanchez.jpg"
 
   - name: "León Vargas"
     role: "Director Industria Inteligente"
-    img: "lider3.png"
+    img: "Leon-Vargas.jpg"
 
   - name: "Carlos Crespo"
     role: "Director Sensores Inteligentes"
-    img: "lider4.png"
+    img: "Carlos-Crespo.jpg"
 
 #  - name: "Juan Duran"
 #    role: "Director Energía Hibrida"
-#    img: "lider5.jpg"
+#    img: "Juan-Duran.jpg"
 
 
 # ==============================
@@ -54,7 +54,7 @@ leadership:
 # ==============================
 members:
   - name: "William Mayorga"
-    img: "miembro1.png"
+    img: "William-Mayorga.jpg"
     github: "https://github.com/WiliMayo"
     linkedin: "https://www.linkedin.com/in/william-ismael-mayorga-mejia-35b308217/"
     portfolio: "https://wilimayo.github.io/"
