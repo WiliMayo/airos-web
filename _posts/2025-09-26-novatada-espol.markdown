@@ -11,7 +11,7 @@ client: Feria de Clubes ESPOL
 project-date: 26 de Septiembre, 2025
 category: Evento
 description: >
-  <p>El pasado viernes <strong>26 de Septiembre de 2025</strong> estuvimos presentes en la <strong>Novatada ESPOL</strong>, el evento que reúne a todos los clubes de la universidad para presentarse ante los nuevos politécnicos.</p>
+  <p>El viernes <strong>26 de Septiembre de 2025</strong> estuvimos presentes en la <strong>Novatada ESPOL</strong>, el evento que reúne a todos los clubes de la universidad para presentarse ante los nuevos politécnicos.</p>
 
   <p>🚀 Desde <strong>AIROS</strong> compartimos nuestra pasión por la robótica, la mecatrónica y la innovación tecnológica, mostrando a los estudiantes de primer semestre lo que significa ser parte de una comunidad que construye, aprende y experimenta.</p>
 
