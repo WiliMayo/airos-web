@@ -11,38 +11,38 @@ leadership:
 
   - name: "Héctor La Mota"
     role: "Vicepresidente"
-    img: "vice.jpg"
+    img: "vice.png"
     linkedin: "#"
 
   - name: "Ph.D. Nabih Pico"
     role: "Advisor / Consejero"
-    img: "nabih.jpg"
+    img: "nabih.png"
     linkedin: "#"
 
   - name: "Juan Duran"
     role: "Tesorero / Director Energía Hibrida"
-    img: "tesorero.jpg"
+    img: "tesorero.png"
     
   - name: "Micaela Anamise"
     role: "Secretaria"
-    img: "secretario.jpg"
+    img: "secretario.png"
 
   - name: "Daniel Chávez"
     role: "Director Humanoides"
-    img: "lider1.jpg"
+    img: "lider1.png"
     github: "#"
 
   - name: "Carolina Sánchez"
     role: "Director Navegación Autónoma"
-    img: "lider2.jpg"
+    img: "lider2.png"
 
   - name: "León Vargas"
     role: "Director Industria Inteligente"
-    img: "lider3.jpg"
+    img: "lider3.png"
 
   - name: "Carlos Crespo"
     role: "Director Sensores Inteligentes"
-    img: "lider4.jpg"
+    img: "lider4.png"
 
 #  - name: "Juan Duran"
 #    role: "Director Energía Hibrida"
@@ -53,8 +53,8 @@ leadership:
 # PARTE 2: MIEMBROS DEL CLUB
 # ==============================
 members:
-  - name: "William Mayroga"
-    img: "miembro1.jpg"
+  - name: "William Mayorga"
+    img: "miembro1.png"
     github: "https://github.com/WiliMayo"
     linkedin: "https://www.linkedin.com/in/william-ismael-mayorga-mejia-35b308217/"
     portfolio: "https://wilimayo.github.io/"
