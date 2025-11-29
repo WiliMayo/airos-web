@@ -7,7 +7,7 @@ thumbnail: charla-musculos-thumb.jpg
 alt: Conferencia Músculos Artificiales
 title: Músculos Artificiales
 subtitle: Actuadores en Robótica (Hyper-VAM)
-client: Expositor: Ph.D. Altair Coutinho
+client: ESPOL
 project-date: 2 de Diciembre, 2024
 category: Taller
 description: >
