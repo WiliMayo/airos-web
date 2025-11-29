@@ -47,7 +47,16 @@
                         </ul>
                         
                         <button type="button" class="btn btn-default" data-dismiss="modal">
-                            <i class="fa fa-times"></i> Cerrar Proyecto
+                            <i class="fa fa-times"></i>
+                            
+                            {% if post.category == 'Evento' %}
+                                Cerrar Evento
+                            {% elsif post.category == 'Taller' %}
+                                Cerrar Taller
+                            {% else %}
+                                Cerrar Proyecto
+                            {% endif %}
+                            
                         </button>
                     </div>
                 </div>
