@@ -4,8 +4,8 @@ subtitle: 1er y 2do Lugar - Navegación Autónoma
 layout: default
 modal-id: 001
 date: 2025-10-17
-img: f1tenth-group.jpg
-thumbnail: f1tenth-group-thumb.jpg
+img: roboracer.jpg
+thumbnail: roboracer-thumb.jpg
 alt: Equipos ganadores F1TENTH AIROS
 project-date: Octubre 17
 client: Competencia RoboRacer Ecuador
