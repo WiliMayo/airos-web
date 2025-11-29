@@ -2,14 +2,14 @@
 # PARTE 1: DIRECTIVA Y LÍDERES
 # ==============================
 leadership:
-  - name: "José Santos"
+  - name: "Juan Sánchez"
     role: "Presidente"
-    img: "presi.jpg"
+    img: "presi.png"
     github: "https://github.com/tu-usuario"
     linkedin: "https://linkedin.com/in/tu-usuario"
     portfolio: "https://tuweb.com"
 
-  - name: "Nombre Vicepresidente"
+  - name: "Héctor La Mota"
     role: "Vicepresidente"
     img: "vice.jpg"
     linkedin: "#"
@@ -19,44 +19,45 @@ leadership:
     img: "nabih.jpg"
     linkedin: "#"
 
-  - name: "Nombre Tesorero"
-    role: "Tesorero"
+  - name: "Juan Duran"
+    role: "Tesorero / Director Energía Hibrida"
     img: "tesorero.jpg"
     
-  - name: "Nombre Secretaria"
+  - name: "Micaela Anamise"
     role: "Secretaria"
     img: "secretario.jpg"
 
-  - name: "Líder Humanoides"
+  - name: "Daniel Chávez"
     role: "Director Humanoides"
     img: "lider1.jpg"
     github: "#"
 
-  - name: "Líder Navegación Autónoma"
-    role: "Director Navegación"
+  - name: "Carolina Sánchez"
+    role: "Director Navegación Autónoma"
     img: "lider2.jpg"
 
-  - name: "Líder Industria Inteligente"
-    role: "Director Navegación"
+  - name: "León Vargas"
+    role: "Director Industria Inteligente"
     img: "lider3.jpg"
 
-  - name: "Líder Sensores Inteligentes"
-    role: "Director Navegación"
+  - name: "Carlos Crespo"
+    role: "Director Sensores Inteligentes"
     img: "lider4.jpg"
 
-  - name: "Líder Energía Hibrida"
-    role: "Director Navegación"
-    img: "lider5.jpg"
+#  - name: "Juan Duran"
+#    role: "Director Energía Hibrida"
+#    img: "lider5.jpg"
 
 
 # ==============================
 # PARTE 2: MIEMBROS DEL CLUB
 # ==============================
 members:
-  - name: "Juan Pérez"
+  - name: "William Mayroga"
     img: "miembro1.jpg"
-    github: "#"
-    linkedin: "#"
+    github: "https://github.com/WiliMayo"
+    linkedin: "https://www.linkedin.com/in/william-ismael-mayorga-mejia-35b308217/"
+    portfolio: "https://wilimayo.github.io/"
   
   - name: "María López"
     img: "miembro2.jpg"
