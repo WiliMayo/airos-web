@@ -1,37 +1,73 @@
-<!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nuestro Equipo</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Nuestro Equipo</h2>
+                <h3 class="section-subheading text-muted">Liderazgo y talento politécnico al servicio de la innovación.</h3>
             </div>
         </div>
-    </section>
+
+        <div class="row">
+            {% for member in site.data.members.leadership %}
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="img/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}">
+                    
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.role }}</p>
+                    
+                    <ul class="list-inline social-buttons">
+                        {% if member.github %}
+                        <li><a href="{{ member.github }}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        {% endif %}
+                        {% if member.linkedin %}
+                        <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        {% endif %}
+                        {% if member.portfolio %}
+                        <li><a href="{{ member.portfolio }}" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="row" style="margin-top: 50px; margin-bottom: 40px;">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading" style="font-size: 28px;">Miembros Activos</h3>
+                <hr class="primary" style="max-width: 100px; border-color: #00d2ff; border-width: 3px;">
+            </div>
+        </div>
+
+        <div class="row">
+            {% for member in site.data.members.members %}
+            <div class="col-xs-6 col-sm-3 col-md-2 text-center" style="margin-bottom: 30px;">
+                
+                <img src="img/team/{{ member.img }}" class="img-responsive img-circle img-centered" alt="{{ member.name }}" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+                
+                <h5 style="margin-top: 10px; font-size: 14px; font-weight: 700;">{{ member.name }}</h5>
+                
+                <ul class="list-inline" style="margin-top: 5px;">
+                    {% if member.github %}
+                    <li><a href="{{ member.github }}" target="_blank" style="color: #333;"><i class="fa-brands fa-github"></i></a></li>
+                    {% endif %}
+                    {% if member.linkedin %}
+                    <li><a href="{{ member.linkedin }}" target="_blank" style="color: #0077b5;"><i class="fa-brands fa-linkedin"></i></a></li>
+                    {% endif %}
+                    {% if member.portfolio %}
+                    <li><a href="{{ member.portfolio }}" target="_blank" style="color: #00d2ff;"><i class="fa-solid fa-globe"></i></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">¿Te gustaría aparecer aquí? Únete a AIROS y comienza a construir el futuro.</p>
+            </div>
+        </div>
+
+    </div>
+</section>

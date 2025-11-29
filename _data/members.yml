@@ -1,0 +1,68 @@
+# ==============================
+# PARTE 1: DIRECTIVA Y LÍDERES
+# ==============================
+leadership:
+  - name: "José Santos"
+    role: "Presidente"
+    img: "presi.jpg"
+    github: "https://github.com/tu-usuario"
+    linkedin: "https://linkedin.com/in/tu-usuario"
+    portfolio: "https://tuweb.com"
+
+  - name: "Nombre Vicepresidente"
+    role: "Vicepresidente"
+    img: "vice.jpg"
+    linkedin: "#"
+
+  - name: "Ph.D. Nabih Pico"
+    role: "Advisor / Consejero"
+    img: "nabih.jpg"
+    linkedin: "#"
+
+  - name: "Nombre Tesorero"
+    role: "Tesorero"
+    img: "tesorero.jpg"
+    
+  - name: "Nombre Secretaria"
+    role: "Secretaria"
+    img: "secretario.jpg"
+
+  - name: "Líder Humanoides"
+    role: "Director Humanoides"
+    img: "lider1.jpg"
+    github: "#"
+
+  - name: "Líder Navegación Autónoma"
+    role: "Director Navegación"
+    img: "lider2.jpg"
+
+  - name: "Líder Industria Inteligente"
+    role: "Director Navegación"
+    img: "lider3.jpg"
+
+  - name: "Líder Sensores Inteligentes"
+    role: "Director Navegación"
+    img: "lider4.jpg"
+
+  - name: "Líder Energía Hibrida"
+    role: "Director Navegación"
+    img: "lider5.jpg"
+
+
+# ==============================
+# PARTE 2: MIEMBROS DEL CLUB
+# ==============================
+members:
+  - name: "Juan Pérez"
+    img: "miembro1.jpg"
+    github: "#"
+    linkedin: "#"
+  
+  - name: "María López"
+    img: "miembro2.jpg"
+    github: "#"
+    portfolio: "#"
+
+  - name: "Carlos Ruiz"
+    img: "miembro3.jpg"
+    linkedin: "#"
