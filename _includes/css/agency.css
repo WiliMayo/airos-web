@@ -175,15 +175,43 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+/* =========================================
+   ESTILOS PARA EL LOGO (IMAGEN)
+   Reemplaza al antiguo bloque de texto
+   ========================================= */
+
 .navbar-default .navbar-brand {
-    font-family: 'Michroma', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    
-    color: white; /* Relleno blanco */
-    -webkit-text-stroke: 1px black; /* Borde negro de 2px */
-    text-shadow: 1px 1px 0px #000; /* Sombra sólida para darle peso */
+    /* Quitamos estilos de texto viejos */
+    font-family: inherit;
+    color: transparent;
+    padding: 10px 15px; /* Espacio alrededor del logo */
+    height: auto;       /* Dejamos que la altura se adapte a la imagen */
+}
+
+/* Controlamos la imagen del logo */
+.nav-logo {
+    height: 40px;         /* Tamaño inicial (cuando estás arriba) */
+    width: auto;          /* Mantiene la proporción */
+    transition: all 0.3s; /* Animación suave */
+    display: block;
+}
+
+/* =========================================
+   EFECTO SCROLL (Cuando bajas la página)
+   ========================================= */
+
+@media(min-width:768px) {
+    /* 1. Estado Inicial (Barra Grande Transparente) */
+    .navbar-default .navbar-brand .nav-logo {
+        height: 50px; /* Logo más grande para lucirse */
+    }
+
+    /* 2. Estado Scroll (Barra Pequeña Negra) */
+    /* La clase .navbar-shrink se activa automáticamente al bajar */
+    .navbar-default.navbar-shrink .navbar-brand .nav-logo {
+        height: 35px;     /* El logo se hace pequeño */
+        margin-top: -5px; /* Ajuste fino para centrarlo verticalmente */
+    }
 }
 
 .navbar-default .navbar-brand:hover,
