@@ -7,5 +7,8 @@ color:
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  # Primary: Se usará para Títulos (H1, H2...), Botones y Menú
+  primary: '"Bebas Neue", cursive'
+
+  # Secondary: Se usará para los Subtítulos (esos textos debajo de los títulos grandes)
+  secondary: '"Rajdhani", sans-serif'
