@@ -197,20 +197,32 @@ fieldset[disabled] .btn-xl.active {
 }
 
 /* =========================================
-   EFECTO SCROLL (Cuando bajas la página)
+   EFECTO SCROLL
    ========================================= */
 
 @media(min-width:768px) {
-    /* 1. Estado Inicial (Barra Grande Transparente) */
+    /* 1. Estado Inicial (Barra Grande - Arriba del todo) */
     .navbar-default .navbar-brand .nav-logo {
-        height: 50px; /* Logo más grande para lucirse */
+        height: 50px; 
+        /* Sin márgenes extraños aquí */
     }
 
-    /* 2. Estado Scroll (Barra Pequeña Negra) */
-    /* La clase .navbar-shrink se activa automáticamente al bajar */
+    /* 2. Estado Scroll (Barra Pequeña - Cuando bajas) */
+    
+    /* Ajustamos el contenedor (el enlace <a>) */
+    .navbar-default.navbar-shrink .navbar-brand {
+        /* Reducimos el padding superior para que quepa bien */
+        padding-top: 10px !important; 
+        padding-bottom: 10px !important;
+    }
+
+    /* Ajustamos la imagen (el logo) */
     .navbar-default.navbar-shrink .navbar-brand .nav-logo {
-        height: 35px;     /* El logo se hace pequeño */
-        margin-top: -5px; /* Ajuste fino para centrarlo verticalmente */
+        height: 35px;      /* Tamaño reducido */
+        
+        /* AQUÍ ESTÁ EL CAMBIO CLAVE: */
+        margin-top: 0px;   /* Quitamos el negativo */
+        /* Si aún lo ves muy arriba, cambia este 0px por 2px o 4px */
     }
 }
 
