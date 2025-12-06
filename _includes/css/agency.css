@@ -347,7 +347,7 @@ header .intro-text {
 /* 2. Ajuste para pantallas grandes (PC) */
 @media(min-width:768px) {
     .hero-logo {
-        max-width: 100px; /* Tamaño máximo en computadora*/
+        max-width: 250px; /* Tamaño máximo en computadora*/
     }
 }
 
