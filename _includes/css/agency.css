@@ -941,3 +941,25 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* =========================================
+   AJUSTE DE ALTURA DEL HERO (Portada)
+   ========================================= */
+
+/* 1. Para Celulares */
+header .intro-text {
+    /* Por defecto suele ser 100px, lo bajamos un poco */
+    padding-top: 80px !important; 
+}
+
+/* 2. Para Computadoras (Aquí es donde suele verse el hueco grande) */
+@media (min-width: 768px) {
+    header .intro-text {
+        /* La plantilla original usa 300px. 
+           Prueba con 150px o 200px para subirlo. */
+        padding-top: 160px !important; 
+        
+        /* Opcional: Si sientes que hay mucho espacio DEBAJO del logo también */
+        padding-bottom: 50px !important;
+    }
+}
