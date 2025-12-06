@@ -329,16 +329,35 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    font-family: 'Michroma', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-size: 75px !important;
-    font-style: normal !important;
-    margin-bottom: 20px;
+/* =========================================
+   LOGO GIGANTE DE LA PORTADA (HERO)
+   ========================================= */
+
+/* 1. Estilos de la imagen del logo */
+.hero-logo {
+    display: block;
+    margin: 0 auto;       /* Centrado horizontal */
+    max-width: 80%;       /* En celular ocupa el 80% del ancho */
+    height: auto;         /* Mantiene la proporción */
     
-    color: white; /* Relleno blanco */
+    /* Opcional: Un poco de sombra para que resalte del fondo */
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+}
+
+/* 2. Ajuste para pantallas grandes (PC) */
+@media(min-width:768px) {
+    .hero-logo {
+        max-width: 600px; /* Tamaño máximo en computadora (ajústalo a tu gusto) */
+    }
+}
+
+header .intro-text .intro-lead-in {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: normal !important;
+    -webkit-text-stroke: 0px !important; /* Quitamos el borde negro viejo */
+    text-shadow: none !important;        /* Quitamos la sombra vieja */
+    margin-bottom: 30px;                 /* Espacio entre el logo y el subtítulo */
 }
 
 header .intro-text .intro-heading {
