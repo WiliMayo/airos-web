@@ -1037,9 +1037,17 @@ header .intro-text {
 }
 
 /* =========================================
-   CORRECCIÓN DEL SCROLL (Para que el menú no tape el título)
+   CORRECCIÓN SCROLL (EL "TRUCO DEL RELLENO")
    ========================================= */
 
 #papers {
-    scroll-margin-top: 200px; /* Empuja el punto de frenado 100px hacia arriba */
+    /* 1. Creamos un colchón invisible arriba */
+    padding-top: 120px !important;
+    
+    /* 2. Jalamos la sección hacia arriba para compensar el colchón
+       y que no quede un espacio blanco gigante */
+    margin-top: -60px !important; 
+    
+    /* 3. Mantenemos el espacio de abajo normal */
+    padding-bottom: 60px !important;
 }
