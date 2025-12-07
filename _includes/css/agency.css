@@ -1041,5 +1041,5 @@ header .intro-text {
    ========================================= */
 
 #papers {
-    scroll-margin-top: 100px; /* Empuja el punto de frenado 100px hacia arriba */
+    scroll-margin-top: 200px; /* Empuja el punto de frenado 100px hacia arriba */
 }
