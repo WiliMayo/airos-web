@@ -1,0 +1,48 @@
+<section id="papers" class="bg-light-gray" style="padding: 60px 0;">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color: #222;">Publicaciones Científicas</h2>
+                <h3 class="section-subheading text-muted">Investigación y desarrollo académico generado por nuestros miembros.</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                
+                {% for paper in site.data.papers %}
+                <div class="paper-card">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-2 text-center hidden-xs">
+                            <div class="paper-icon">
+                                <i class="fa-solid fa-scroll"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9 col-sm-8">
+                            <h4 class="paper-title">{{ paper.title }}</h4>
+                            <p class="paper-authors">
+                                <i class="fa-solid fa-users"></i> {{ paper.authors }}
+                            </p>
+                            <span class="paper-badge">
+                                <i class="fa-solid fa-building-columns"></i> {{ paper.conference }}
+                            </span>
+                            <span class="paper-badge year">
+                                <i class="fa-solid fa-calendar-days"></i> {{ paper.year }}
+                            </span>
+                        </div>
+
+                        <div class="col-md-2 col-sm-2 text-center" style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                            <a href="{{ paper.link }}" target="_blank" class="btn btn-primary btn-sm paper-btn">
+                                <i class="fa-solid fa-book-open"></i> Leer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</section>
