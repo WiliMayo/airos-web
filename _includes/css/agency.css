@@ -1035,3 +1035,11 @@ header .intro-text {
         margin-top: 15px;
     }
 }
+
+/* =========================================
+   CORRECCIÓN DEL SCROLL (Para que el menú no tape el título)
+   ========================================= */
+
+#papers {
+    scroll-margin-top: 100px; /* Empuja el punto de frenado 100px hacia arriba */
+}
