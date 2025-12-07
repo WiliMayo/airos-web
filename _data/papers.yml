@@ -2,22 +2,22 @@
   authors: "Nabih Pico, Maykoll Vanegas, Eugene Auh, Hong-ryul Jung, Altair Coutinho, Elvia Montero, Hyungpil Moon"
   conference: "Lecture Notes in Networks and Systems (Springer)"
   year: "2025"
-  link: "#" # Pega aquí el link de Springer
+  link: "https://www.researchgate.net/publication/393753528_Real-Time_Multi-object_Tracking_and_Identification_Using_Sparse_Point-Cloud_Data_from_Low-Cost_mmWave_Radar"
 
 - title: "Integrating Radar-Based Obstacle Detection with Deep Reinforcement Learning for Robust Autonomous Navigation"
   authors: "Nabih Pico, Estrella Montero, Maykoll Vanegas, Jose Miguel Erazo Ayon, Eugene Auh, et al."
   conference: "Applied Sciences (MDPI)"
   year: "2025"
-  link: "#" # Pega aquí el link de MDPI
+  link: "https://www.mdpi.com/2076-3417/15/1/295"
 
 - title: "Web-Based Real-Time Alarm and Teleoperation System for Autonomous Navigation Failures Using ROS 1 and ROS 2"
   authors: "Nabih Pico, Giovanny Mite, Daniel Morán, Manuel S. Alvarez-Alvarado, Eugene Auh, Hyungpil Moon"
   conference: "Actuators (MDPI)"
   year: "2025"
-  link: "#" # Pega aquí el link de MDPI
+  link: "https://www.mdpi.com/2076-0825/14/4/164"
 
 - title: "Accurate Stair Measurement Method for Autonomous Robot Navigation using RGB-D Camera"
   authors: "Nabih Pico, Dana Soriano, Eugene Auh, Washington Velasquez, Jiyou Shin, Hyungpil Moon"
   conference: "ICCAS 2024 (IEEE Xplore)"
   year: "2024"
-  link: "#" # Pega aquí el link de IEEE
+  link: "https://ieeexplore.ieee.org/document/10773216"
