@@ -1042,7 +1042,7 @@ header .intro-text {
 
 #papers {
     /* 1. Creamos un colchón invisible arriba */
-    padding-top: 10px !important;
+    padding-top: 100px !important;
     /*
     /* 2. Jalamos la sección hacia arriba para compensar el colchón
        y que no quede un espacio blanco gigante */
