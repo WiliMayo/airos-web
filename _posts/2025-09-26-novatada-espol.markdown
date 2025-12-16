@@ -4,20 +4,20 @@ modal-id: 002
 date: 2025-09-26
 img: novatada-espol.jpg
 thumbnail: novatada-espol-thumb.jpg
-alt: Stand del club en la Novatada
-title: Novatada ESPOL
-subtitle: Bienvenida a Nuevos Politécnicos
-client: Feria de Clubes ESPOL
-project-date: 26 de Septiembre, 2025
-category: Evento
+alt: Club Stand at Novatada
+title: ESPOL Novatada
+subtitle: Welcome to New Students
+client: ESPOL Clubs Fair
+project-date: September 26, 2025
+category: Event
 description: >
-  <p>El viernes <strong>26 de Septiembre de 2025</strong> estuvimos presentes en la <strong>Novatada ESPOL</strong>, el evento que reúne a todos los clubes de la universidad para presentarse ante los nuevos politécnicos.</p>
+  <p>On Friday, <strong>September 26, 2025</strong>, we were present at the <strong>ESPOL Novatada</strong>, the event that brings together all the university clubs to introduce themselves to the new polytechnic students.</p>
 
-  <p>🚀 Desde <strong>AIROS</strong> compartimos nuestra pasión por la robótica, la mecatrónica y la innovación tecnológica, mostrando a los estudiantes de primer semestre lo que significa ser parte de una comunidad que construye, aprende y experimenta.</p>
+  <p>🚀 From <strong>AIROS</strong>, we shared our passion for robotics, mechatronics, and technological innovation, showing first-semester students what it means to be part of a community that builds, learns, and experiments.</p>
 
-  <p>🙌 Nos encantó ver tanto interés, curiosidad y motivación en quienes se acercaron a nuestro stand, conocieron nuestros proyectos y se animaron a dar el primer paso para formar parte de esta gran familia.</p>
+  <p>🙌 We loved seeing so much interest, curiosity, and motivation in those who approached our stand, learned about our projects, and decided to take the first step to become part of this great family.</p>
 
-  <p>💡 La Novatada no solo fue una oportunidad para mostrar quiénes somos, sino también para inspirar a los futuros miembros a desarrollar su potencial, vivir nuevas experiencias y trabajar en equipo en un ambiente de creatividad y aprendizaje constante.</p>
+  <p>💡 The Novatada was not only an opportunity to show who we are but also to inspire future members to develop their potential, live new experiences, and work as a team in an environment of creativity and constant learning.</p>
 
-  <p class="text-center"><strong>💙 Gracias a todos los que pasaron a saludarnos. ¡Este es solo el comienzo de un camino lleno de logros que construiremos juntos!</strong></p>
+  <p class="text-center"><strong>💙 Thanks to everyone who stopped by to say hello. This is just the beginning of a path full of achievements that we will build together!</strong></p>
 ---

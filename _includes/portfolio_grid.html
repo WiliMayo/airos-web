@@ -1,10 +1,9 @@
-<!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+<section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nuestras Actividades</h2>
-                    <h3 class="section-subheading text-muted">Innovación en acción: Proyectos, Eventos y Talleres.</h3>
+                    <h2 class="section-heading">Our Activities</h2>
+                    <h3 class="section-subheading text-muted">Innovation in action: Projects, Events, and Workshops.</h3>
                 </div>
             </div>
             <div class="row">
@@ -22,10 +21,14 @@
                         <h4>{{ post.title }}</h4>
                         
                         <p class="text-muted">
-                            {% if post.category == 'Proyecto' %}
-                                <i class="fa-solid fa-robot"></i> {% elsif post.category == 'Evento' %}
-                                <i class="fa-solid fa-trophy"></i> {% elsif post.category == 'Taller' %}
-                                <i class="fa-solid fa-chalkboard-user"></i> {% endif %}
+                            {% if post.category == 'Proyecto' or post.category == 'Project' %}
+                                <i class="fa-solid fa-robot"></i> 
+                            {% elsif post.category == 'Evento' or post.category == 'Event' %}
+                                <i class="fa-solid fa-trophy"></i> 
+                            {% elsif post.category == 'Taller' or post.category == 'Workshop' %}
+                                <i class="fa-solid fa-chalkboard-user"></i> 
+                            {% endif %}
+                            
                             {{ post.subtitle }}
                         </p>
                     </div>

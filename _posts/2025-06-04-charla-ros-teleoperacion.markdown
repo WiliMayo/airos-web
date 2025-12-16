@@ -4,27 +4,27 @@ modal-id: 003
 date: 2025-06-04
 img: charla-ros.jpg
 thumbnail: charla-ros-thumb.jpg
-alt: Charla Técnica ROS y Teleoperación
-title: Monitoreo y Teleoperación
-subtitle: Fallos en Navegación Autónoma (ROS)
-client: Colaboración AIROS & IEEE UPS RAS
-project-date: 4 de Junio, 2025
-category: Taller
+alt: ROS Technical Talk and Teleoperation
+title: Monitoring and Teleoperation
+subtitle: Autonomous Navigation Failures (ROS)
+client: AIROS & IEEE UPS RAS Collaboration
+project-date: June 4, 2025
+category: Workshop
 description: >
-  <p>Desde <strong>@airosespol</strong> compartimos con orgullo la participación del <strong>Ph.D. Nabih Pico</strong>, junto a <strong>Winter Delgado y León Vargas</strong>, en una charla técnica de alto nivel organizada en conjunto con <strong>@ieee.ups.quito.ras</strong>. 🎓🤝</p>
+  <p>From <strong>@airosespol</strong>, we proudly share the participation of <strong>Ph.D. Nabih Pico</strong>, together with <strong>Winter Delgado and León Vargas</strong>, in a high-level technical talk organized jointly with <strong>@ieee.ups.quito.ras</strong>. 🎓🤝</p>
 
-  <p>Durante la sesión se exploraron estrategias clave para enfrentar fallos en sistemas de navegación autónoma, destacando la importancia del monitoreo remoto y la intervención humana en tiempo real.</p>
+  <p>During the session, key strategies for addressing failures in autonomous navigation systems were explored, highlighting the importance of remote monitoring and real-time human intervention.</p>
   
-  <p>Se presentaron pruebas exhaustivas utilizando tanto <strong>ROS 1 como ROS 2</strong>, simuladores <strong>Gazebo (Classic & Fortress)</strong> y despliegue en robots reales como el <strong>TurtleBot 3</strong>.</p>
+  <p>Extensive tests were presented using both <strong>ROS 1 and ROS 2</strong>, <strong>Gazebo (Classic & Fortress)</strong> simulators, and deployment on real robots like the <strong>TurtleBot 3</strong>.</p>
 
-  <h3>🔍 Temas Destacados:</h3>
+  <h3>🔍 Featured Topics:</h3>
   <ul style="text-align: left;">
-      <li><strong>Latencia:</strong> Comparativa técnica de rendimiento entre ROS 1 vs ROS 2.</li>
-      <li><strong>Interfaces:</strong> Teleoperación en tiempo real mediante web y Apps móviles desarrolladas en <strong>Flutter</strong>.</li>
-      <li><strong>Sincronización:</strong> Desafíos de comunicación entre PC, TurtleBot e interfaces de control.</li>
-      <li><strong>Transmisión de Datos:</strong> Impacto de la pérdida de mensajes (especialmente video) en la operación remota.</li>
-      <li><strong>Sensores y Control:</strong> Evaluación de LiDAR, cámara RGB, odometría y control mediante teclado/joystick.</li>
+      <li><strong>Latency:</strong> Technical performance comparison between ROS 1 vs ROS 2.</li>
+      <li><strong>Interfaces:</strong> Real-time teleoperation via web and mobile Apps developed in <strong>Flutter</strong>.</li>
+      <li><strong>Synchronization:</strong> Communication challenges between PC, TurtleBot, and control interfaces.</li>
+      <li><strong>Data Transmission:</strong> Impact of message loss (especially video) on remote operation.</li>
+      <li><strong>Sensors and Control:</strong> Evaluation of LiDAR, RGB camera, odometry, and control via keyboard/joystick.</li>
   </ul>
 
-  <p class="text-center"><strong>🚀 ¡Seguimos avanzando en robótica colaborativa e inteligente! Gracias a todos por asistir.</strong></p>
+  <p class="text-center"><strong>🚀 We continue advancing in collaborative and intelligent robotics! Thanks to everyone for attending.</strong></p>
 ---

@@ -1,4 +1,3 @@
- <!-- Portfolio Modals -->
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -23,25 +22,25 @@
                             
                             {% if post.repo %}
                             <a href="{{ post.repo }}" target="_blank" class="btn btn-xl btn-primary">
-                                <i class="fa-brands fa-github"></i> Ver Código
+                                <i class="fa-brands fa-github"></i> View Code
                             </a>
                             {% endif %}
 
                             {% if post.slides %}
                             <a href="{{ post.slides }}" target="_blank" class="btn btn-xl btn-primary" style="background-color: #e74c3c; border-color: #e74c3c;">
-                                <i class="fa-solid fa-file-pdf"></i> Ver Presentación
+                                <i class="fa-solid fa-file-pdf"></i> View Slides
                             </a>
                             {% endif %}
 
                         </div>
                         <ul class="list-inline item-details">
-                            <li>Contexto:
+                            <li>Context:
                                 <strong>{{ post.client }}</strong>
                             </li>
-                            <li>Fecha:
+                            <li>Date:
                                 <strong>{{ post.project-date }}</strong>
                             </li>
-                            <li>Categoría:
+                            <li>Category:
                                 <strong>{{ post.category }}</strong>
                             </li>
                         </ul>
@@ -49,12 +48,12 @@
                         <button type="button" class="btn btn-default" data-dismiss="modal">
                             <i class="fa fa-times"></i>
                             
-                            {% if post.category == 'Evento' %}
-                                Cerrar Evento
-                            {% elsif post.category == 'Taller' %}
-                                Cerrar Taller
+                            {% if post.category == 'Evento' or post.category == 'Event' %}
+                                Close Event
+                            {% elsif post.category == 'Taller' or post.category == 'Workshop' %}
+                                Close Workshop
                             {% else %}
-                                Cerrar Proyecto
+                                Close Project
                             {% endif %}
                             
                         </button>

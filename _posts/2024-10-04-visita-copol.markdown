@@ -4,24 +4,24 @@ modal-id: 005
 date: 2024-10-04
 img: visita-copol.jpg
 thumbnail: visita-copol-thumb.jpg
-alt: Visita AIROS a COPOL
-title: Visita a COPOL
-subtitle: Divulgación y Muestra de Proyectos
-client: Unidad Educativa COPOL
-project-date: 4 de Octubre, 2024
-category: Evento
+alt: AIROS Visit to COPOL
+title: Visit to COPOL
+subtitle: Outreach and Project Showcase
+client: COPOL Educational Unit
+project-date: October 4, 2024
+category: Event
 description: >
-  <p>📚🤖 El pasado <strong>4 de Octubre de 2024</strong>, el club AIROS visitó la escuela <strong>COPOL</strong> de Guayaquil para realizar una intervención educativa y mostrar los desarrollos tecnológicos del club.</p>
+  <p>📚🤖 On <strong>October 4, 2024</strong>, the AIROS club visited the <strong>COPOL</strong> school in Guayaquil to conduct an educational session and showcase the club's technological developments.</p>
 
-  <p>El <strong>Ph.D. Nabih Pico</strong> abrió la jornada resaltando la importancia de la robótica en la actualidad. A continuación, nuestros talentosos miembros presentaron sus prototipos:</p>
+  <p><strong>Ph.D. Nabih Pico</strong> opened the day by highlighting the importance of robotics in today's world. Following his introduction, our talented members presented their prototypes:</p>
 
   <ul style="text-align: left;">
-      <li><strong>Ángel Espín:</strong> Presentó su innovador robot capaz de <strong>subir escaleras</strong>, demostrando cómo la mecánica puede superar obstáculos del entorno.</li>
-      <li><strong>Giovanny Mite:</strong> Demostró un robot de <strong>teleoperación</strong> controlado con un mando de videojuego, exhibiendo el control a distancia.</li>
-      <li><strong>Maykoll Vanegas:</strong> Expuso su trabajo en Visión Artificial para la <strong>identificación y seguimiento de personas</strong>, con aplicaciones en seguridad.</li>
+      <li><strong>Ángel Espín:</strong> Presented his innovative robot capable of <strong>climbing stairs</strong>, demonstrating how mechanics can overcome environmental obstacles.</li>
+      <li><strong>Giovanny Mite:</strong> Demonstrated a <strong>teleoperation</strong> robot controlled via a video game controller, showcasing remote control capabilities.</li>
+      <li><strong>Maykoll Vanegas:</strong> Exhibited his work on Computer Vision for <strong>person identification and tracking</strong>, highlighting its applications in security.</li>
   </ul>
 
-  <p>Para cerrar, <strong>Anthony Carrillo</strong> compartió un mensaje inspirador, motivando a los estudiantes a involucrarse en el fascinante mundo de la ingeniería.</p>
+  <p>To conclude, <strong>Anthony Carrillo</strong> shared an inspiring message, encouraging students to get involved in the fascinating world of engineering.</p>
 
-  <p class="text-center"><strong>🌟 Fue un gran momento para compartir conocimiento. ¡Estamos entusiasmados por las nuevas mentes que se unirán a la robótica!</strong></p>
+  <p class="text-center"><strong>🌟 It was a great moment to share knowledge. We are excited about the new minds that will join the field of robotics!</strong></p>
 ---

@@ -4,26 +4,26 @@ modal-id: 004
 date: 2024-12-02
 img: charla-musculos.jpg
 thumbnail: charla-musculos-thumb.jpg
-alt: Conferencia Músculos Artificiales
-title: Músculos Artificiales
-subtitle: Actuadores en Robótica (Hyper-VAM)
+alt: Artificial Muscles Conference
+title: Artificial Muscles
+subtitle: Actuators in Robotics (Hyper-VAM)
 client: ESPOL
-project-date: 2 de Diciembre, 2024
-category: Taller
+project-date: December 2, 2024
+category: Workshop
 description: >
-  <p>🎤🤖 El <strong>2 de Diciembre de 2024</strong>, AIROS organizó una charla increíble para estudiantes de ESPOL, presentada por el destacado <strong>Ph.D. Altair Coutinho</strong>.</p>
+  <p>🎤🤖 On <strong>December 2, 2024</strong>, AIROS organized an incredible talk for ESPOL students, presented by the distinguished <strong>Ph.D. Altair Coutinho</strong>.</p>
   
-  <p>En esta conferencia magistral, se exploraron conocimientos valiosos sobre los <strong>músculos artificiales aplicados a la robótica</strong>, analizando la evolución de los actuadores utilizados en sistemas robóticos modernos.</p>
+  <p>In this keynote lecture, valuable insights on <strong>artificial muscles applied to robotics</strong> were explored, analyzing the evolution of actuators used in modern robotic systems.</p>
 
-  <h3>💡 Temas Clave Discutidos:</h3>
+  <h3>💡 Key Topics Discussed:</h3>
   <ul style="text-align: left;">
-      <li><strong>Polímeros Activos:</strong> Análisis de músculos artificiales basados en polímeros y su rendimiento real en robots.</li>
-      <li><strong>Tecnología Hyper-VAM:</strong> Avances profundos en el músculo artificial basado en vacío hiperbárico.</li>
-      <li><strong>Optimización Ambiental:</strong> Cómo adaptar estos sistemas para funcionar en condiciones diversas.</li>
-      <li><strong>Física del Actuador:</strong> Estudios sobre la relación velocidad-fuerza en estos nuevos materiales.</li>
+      <li><strong>Active Polymers:</strong> Analysis of polymer-based artificial muscles and their real-world performance in robots.</li>
+      <li><strong>Hyper-VAM Technology:</strong> In-depth advances in the Hyperbaric Vacuum-based Artificial Muscle.</li>
+      <li><strong>Environmental Optimization:</strong> How to adapt these systems to function in diverse conditions.</li>
+      <li><strong>Actuator Physics:</strong> Studies on the speed-force relationship in these new materials.</li>
   </ul>
 
-  <p>Fue una sesión muy enriquecedora donde los estudiantes pudieron profundizar en tecnologías emergentes que están transformando la robótica blanda (Soft Robotics).</p>
+  <p>It was a very enriching session where students were able to delve into emerging technologies that are transforming Soft Robotics.</p>
 
-  <p class="text-center"><strong>✨ ¡Gracias a todos los que participaron y estuvieron presentes!</strong></p>
+  <p class="text-center"><strong>✨ Thanks to everyone who participated and attended!</strong></p>
 ---

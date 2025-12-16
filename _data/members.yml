@@ -3,45 +3,45 @@
 # ==============================
 leadership:
   - name: "Juan Sánchez"
-    role: "Presidente"
+    role: "President"
     img: "Juan-Sanchez.jpg"
     github: "https://github.com/tu-usuario"
     linkedin: "https://linkedin.com/in/tu-usuario"
     portfolio: "https://tuweb.com"
 
   - name: "Héctor La Mota"
-    role: "Vicepresidente"
+    role: "Vice President"
     img: "Hector-La-Mota.jpg"
     linkedin: "#"
 
   - name: "Ph.D. Nabih Pico"
-    role: "Advisor / Consejero"
+    role: "Advisor"
     img: "nabih.jpg"
     linkedin: "#"
 
   - name: "Juan Duran"
-    role: "Tesorero / Director Energía Hibrida"
+    role: "Treasurer / Hybrid Energy Director"
     img: "Juan-Duran.jpg"
     
   - name: "Micaela Anamise"
-    role: "Secretaria"
+    role: "Secretary"
     img: "Micaela-Anamise.jpg"
 
   - name: "Daniel Chávez"
-    role: "Director Humanoides"
+    role: "Humanoids Director"
     img: "Daniel-Chavez.jpg"
     github: "#"
 
   - name: "Carolina Sánchez"
-    role: "Directora Navegación Autónoma"
+    role: "Autonomous Navigation Director"
     img: "Carolina-Sanchez.jpg"
 
   - name: "León Vargas"
-    role: "Director Industria Inteligente"
+    role: "Smart Industry Director"
     img: "Leon-Vargas.jpg"
 
   - name: "Carlos Crespo"
-    role: "Director Sensores Inteligentes"
+    role: "Smart Sensors Director"
     img: "Carlos-Crespo.jpg"
 
 #  - name: "Juan Duran"
