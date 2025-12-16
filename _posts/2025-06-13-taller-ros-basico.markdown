@@ -7,7 +7,7 @@ thumbnail: taller-ros-basico.jpg
 alt: Introduction to ROS Workshop
 title: Basic ROS Tools
 subtitle: AIROS Development Standard
-client: "Instructor: José Santos (President)"
+client: "Instructor: Ing. José Santos (Ex-President)"
 project-date: June 13, 2025
 category: Workshop
 
