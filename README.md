@@ -1,71 +1,71 @@
-# 🤖 AIROS ESPOL - Sitio Web Oficial
+# 🤖 AIROS ESPOL - Official Website
 
-Este repositorio contiene el código fuente del sitio web oficial de **AIROS (Artificial Intelligence and Robotics Society)** de la ESPOL.
+This repository contains the source code of the official website of **AIROS (Artificial Intelligence and Robotics Society)** at ESPOL.
 
-El sitio funciona como un portafolio vivo para mostrar nuestros proyectos de robótica, publicaciones científicas (Papers), eventos y presentar a nuestro equipo directivo y miembros.
+The site works as a living portfolio to showcase our robotics projects, scientific publications (papers), events, and to introduce our board members and general members.
 
-🔗 **URL del sitio:** [https://wilimayo.github.io/airos-web/](https://wilimayo.github.io/airos-web/)
-
----
-
-## 🛠 Tecnología
-
-El sitio está construido sobre **Jekyll**, un generador de sitios estáticos, y alojado gratuitamente en **GitHub Pages**.
-
-* **Framework:** Jekyll
-* **Estilos:** Bootstrap (Tema base: Agency) + CSS Personalizado
-* **Iconos:** FontAwesome 6 (vía CDN)
-* **Fuentes:** Google Fonts (Bebas Neue, Michroma, Montserrat, Rajdhani)
+🔗 **Website URL:** https://wilimayo.github.io/airos-web/
 
 ---
 
-## 📂 Estructura del Proyecto
+## 🛠 Technology
 
-A diferencia de una página HTML normal, este sitio es modular. Aquí se explica dónde editar cada cosa:
+The site is built using **Jekyll**, a static site generator, and is hosted for free on **GitHub Pages**.
 
-### 1. Información Dinámica (Carpeta `_data/`)
-Para facilitar el mantenimiento, la información repetitiva se encuentra en archivos YAML. **Edita estos archivos para actualizar contenido sin tocar código HTML.**
-
-* `members.yml`: Base de datos de la Directiva y Miembros del club.
-* `papers.yml`: Lista de publicaciones científicas y papers aceptados.
-* `template.yml`: Configuración de colores y fuentes globales.
-
-### 2. Proyectos y Noticias (Carpeta `_posts/`)
-Cada robot, taller o evento es un archivo individual en esta carpeta.
-* **Formato de nombre:** `AÑO-MES-DIA-titulo.md` (Ej: `2025-10-17-f1tenth.md`).
-* **Requisito:** Cada post debe tener un `modal-id` único en su encabezado para que la ventana emergente funcione correctamente.
-
-### 3. Secciones de la Página (Carpeta `_includes/`)
-Aquí están los bloques de HTML que componen la página principal (`index.html`).
-* `header.html`: La portada con el logo gigante.
-* `papers.html`: La sección de publicaciones científicas.
-* `services.html`: La sección de Departamentos (Humanoides, Navegación, etc.).
-* `join.html`: La sección de "Únete" con pasos para aspirantes.
-* `team.html`: El diseño de la rejilla de miembros.
-
-### 4. Estilos (Archivo `style.css`)
-Contiene todas las personalizaciones visuales del club (gradientes azules, ajustes de logos, fuentes futuristas) que sobrescriben al tema original.
+* **Framework:** Jekyll  
+* **Styling:** Bootstrap (Base theme: Agency) + Custom CSS  
+* **Icons:** FontAwesome 6 (via CDN)  
+* **Fonts:** Google Fonts (Bebas Neue, Michroma, Montserrat, Rajdhani)
 
 ---
 
-## 🚀 Guía para Colaboradores
+## 📂 Project Structure
 
-### ¿Cómo agregar un nuevo miembro?
-1.  Sube su foto (JPG cuadrada) a `img/team/`.
-2.  Abre `_data/members.yml`.
-3.  Copia el bloque de un miembro existente y reemplaza los datos.
+Unlike a standard HTML page, this site is modular. Below is an explanation of where to edit each part:
 
-### ¿Cómo publicar un nuevo proyecto?
-1.  Crea un archivo `.md` en `_posts/`.
-2.  Usa la plantilla estándar (ver archivos existentes).
-3.  Asegúrate de subir las imágenes (normal y thumbnail) a `img/portfolio/`.
+### 1. Dynamic Information (`_data/` folder)
+To simplify maintenance, repetitive information is stored in YAML files. **Edit these files to update content without touching HTML code.**
 
-### Ejecutar localmente
-Si tienes Ruby y Jekyll instalados:
+* `members.yml`: Database of the board and club members.
+* `papers.yml`: List of scientific publications and accepted papers.
+* `template.yml`: Global color and font configuration.
+
+### 2. Projects and News (`_posts/` folder)
+Each robot, workshop, or event is an individual file in this folder.
+* **Filename format:** `YEAR-MONTH-DAY-title.md` (e.g., `2025-10-17-f1tenth.md`).
+* **Requirement:** Each post must have a unique `modal-id` in its header so the popup window works correctly.
+
+### 3. Page Sections (`_includes/` folder)
+This folder contains the HTML blocks that make up the main page (`index.html`).
+* `header.html`: The landing section with the large logo.
+* `papers.html`: Scientific publications section.
+* `services.html`: Departments section (Humanoids, Navigation, etc.).
+* `join.html`: "Join Us" section with steps for applicants.
+* `team.html`: Members grid layout.
+
+### 4. Styles (`style.css` file)
+Contains all the club's visual customizations (blue gradients, logo adjustments, futuristic fonts) that override the original theme.
+
+---
+
+## 🚀 Contributor Guide
+
+### How to add a new member
+1. Upload their photo (square JPG) to `img/team/`.
+2. Open `_data/members.yml`.
+3. Copy an existing member block and replace the data.
+
+### How to publish a new project
+1. Create a `.md` file in `_posts/`.
+2. Use the standard template (see existing files).
+3. Make sure to upload the images (normal and thumbnail) to `img/portfolio/`.
+
+### Run locally
+If you have Ruby and Jekyll installed:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Accede a http://localhost:4000.
+Access the site at http://localhost:4000.
