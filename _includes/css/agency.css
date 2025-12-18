@@ -1052,3 +1052,27 @@ header .intro-text {
     /*padding-bottom: 15px !important;*/
     
 }
+
+/* =========================================
+   NAVBAR SIEMPRE NEGRA Y FIJA (Override)
+   ========================================= */
+
+/* 1. Forzar fondo negro siempre (quita la transparencia) */
+.navbar-default {
+    background-color: #222 !important;
+    padding: 10px 0 !important; /* Fuerza el tamaño "encogido" desde el principio */
+    border-bottom: none !important;
+}
+
+/* 2. Ajustar el logo para que siempre se vea en su tamaño final */
+.navbar-default .navbar-brand {
+    font-size: 1.5em !important; /* Ajusta este valor si ves el logo muy grande o chico */
+}
+
+/* 3. (Opcional) Si sientes que en móviles se ve diferente, esto lo unifica */
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: #222 !important;
+        padding: 10px 0 !important;
+    }
+}
