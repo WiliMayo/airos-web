@@ -1059,3 +1059,29 @@ header .intro-text {
         padding: 10px 0 !important;
     }
 }
+
+/* =========================================
+   LOGO ESTÁTICO (Congelar tamaño)
+   ========================================= */
+
+.navbar-default .nav-logo {
+    /* 1. Define el tamaño fijo que quieras (prueba 30px, 40px o 50px) */
+    height: 40px !important; 
+    
+    /* 2. Mantener proporción */
+    width: auto !important;
+    
+    /* 3. MATAR LA ANIMACIÓN: Esto evita que se "encoja" suavemente */
+    transition: none !important;
+    -webkit-transition: none !important;
+    
+    /* 4. Asegurar que no le afecten los márgenes del tema */
+    margin-top: 0 !important;
+}
+
+/* Opcional: Ajustar el contenedor del logo para que esté centrado verticalmente */
+.navbar-default .navbar-brand {
+    padding: 5px 15px !important; /* Ajusta el primer número si lo ves muy arriba o abajo */
+    height: auto !important;
+    line-height: normal !important;
+}
