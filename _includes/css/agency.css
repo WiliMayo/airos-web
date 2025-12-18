@@ -1039,19 +1039,13 @@ header .intro-text {
 /* =========================================
    CORRECCIÓN SCROLL (EL "TRUCO DEL RELLENO")
    ========================================= */
-
+/*
 #papers {
-    /* 1. Creamos un colchón invisible arriba */
+
     padding-top: 100px !important;
-    /*
-    /* 2. Jalamos la sección hacia arriba para compensar el colchón
-       y que no quede un espacio blanco gigante */
-    /*margin-top: -15px !important; */
-    
-    /* 3. Mantenemos el espacio de abajo normal */
-    /*padding-bottom: 15px !important;*/
-    
+
 }
+*/
 
 /* =========================================
    NAVBAR SIEMPRE NEGRA Y FIJA (Override)
