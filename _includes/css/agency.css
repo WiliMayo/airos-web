@@ -1066,7 +1066,7 @@ header .intro-text {
 
 .navbar-default .nav-logo {
     /* 1. Define el tamaño fijo que quieras (prueba 30px, 40px o 50px) */
-    height: 40px !important; 
+    height: 45px !important; 
     
     /* 2. Mantener proporción */
     width: auto !important;
