@@ -12,7 +12,7 @@
             {% for member in site.data.members.leadership %}
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="img/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}" style="width: 225px; height: 225px; object-fit: cover; margin: 0 auto;">
+                    <img src="{{ site.baseurl }}/img/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}" style="width: 225px; height: 225px; object-fit: cover; margin: 0 auto;">
                     
                     <h4>{{ member.name }}</h4>
                     <p class="text-muted">{{ member.role }}</p>
@@ -45,7 +45,7 @@
             {% for member in site.data.members.members %}
             <div class="col-xs-6 col-sm-3 col-md-2 text-center" style="margin-bottom: 30px;">
                 
-                <img src="img/team/{{ member.img }}" class="img-responsive img-circle img-centered" alt="{{ member.name }}" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+                <img src="{{ site.baseurl }}/img/team/{{ member.img }}" class="img-responsive img-circle img-centered" alt="{{ member.name }}" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
                 
                 <h5 style="margin-top: 10px; font-size: 14px; font-weight: 700;">{{ member.name }}</h5>
                 
