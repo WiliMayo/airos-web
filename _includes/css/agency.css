@@ -1047,6 +1047,18 @@ header .intro-text {
 }
 */
 
+#departments{
+    padding-top: -30px !important;
+}
+
+#activities{
+    padding-top: -30px !important;
+}
+
+#team{
+    padding-top: -30px !important;
+}
+
 /* =========================================
    NAVBAR SIEMPRE NEGRA Y FIJA (Override)
    ========================================= */
