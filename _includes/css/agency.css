@@ -1037,29 +1037,6 @@ header .intro-text {
 }
 
 /* =========================================
-   CORRECCIÓN SCROLL (EL "TRUCO DEL RELLENO")
-   ========================================= */
-/*
-#papers {
-
-    padding-top: 100px !important;
-
-}
-*/
-
-#departments{
-    padding-top: -100px !important;
-}
-
-#activities{
-    padding-top: -30px !important;
-}
-
-#team{
-    padding-top: -30px !important;
-}
-
-/* =========================================
    NAVBAR SIEMPRE NEGRA Y FIJA (Override)
    ========================================= */
 
