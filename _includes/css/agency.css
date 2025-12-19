@@ -196,36 +196,6 @@ fieldset[disabled] .btn-xl.active {
     display: block;
 }
 
-/* =========================================
-   EFECTO SCROLL
-   ========================================= */
-
-@media(min-width:768px) {
-    /* 1. Estado Inicial (Barra Grande - Arriba del todo) */
-    .navbar-default .navbar-brand .nav-logo {
-        height: 50px; 
-        /* Sin márgenes extraños aquí */
-    }
-
-    /* 2. Estado Scroll (Barra Pequeña - Cuando bajas) */
-    
-    /* Ajustamos el contenedor (el enlace <a>) */
-    .navbar-default.navbar-shrink .navbar-brand {
-        /* Reducimos el padding superior para que quepa bien */
-        padding-top: 10px !important; 
-        padding-bottom: 10px !important;
-    }
-
-    /* Ajustamos la imagen (el logo) */
-    .navbar-default.navbar-shrink .navbar-brand .nav-logo {
-        height: 35px;      /* Tamaño reducido */
-        
-        /* AQUÍ ESTÁ EL CAMBIO CLAVE: */
-        margin-top: 0px;   /* Quitamos el negativo */
-        /* Si aún lo ves muy arriba, cambia este 0px por 2px o 4px */
-    }
-}
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -292,9 +262,6 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -1037,18 +1004,78 @@ header .intro-text {
 }
 
 /* =========================================
-   CORRECCIÓN SCROLL (EL "TRUCO DEL RELLENO")
+   NAVBAR SIEMPRE NEGRA Y FIJA (Override)
    ========================================= */
 
-#papers {
-    /* 1. Creamos un colchón invisible arriba */
-    padding-top: 100px !important;
-    /*
-    /* 2. Jalamos la sección hacia arriba para compensar el colchón
-       y que no quede un espacio blanco gigante */
-    /*margin-top: -15px !important; */
+/* 1. Forzar fondo negro siempre (quita la transparencia) */
+.navbar-default {
+    background-color: #222 !important;
+    padding: 10px 0 !important; /* Fuerza el tamaño "encogido" desde el principio */
+    border-bottom: none !important;
+}
+
+/* 2. Ajustar el logo para que siempre se vea en su tamaño final */
+.navbar-default .navbar-brand {
+    font-size: 1.5em !important; /* Ajusta este valor si ves el logo muy grande o chico */
+}
+
+/* 3. (Opcional) Si sientes que en móviles se ve diferente, esto lo unifica */
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: #222 !important;
+        padding: 10px 0 !important;
+    }
+}
+
+/* =========================================
+   LOGO ESTÁTICO (Congelar tamaño)
+   ========================================= */
+
+.navbar-default .nav-logo {
+    /* 1. Define el tamaño fijo que quieras (prueba 30px, 40px o 50px) */
+    height: 45px !important; 
     
-    /* 3. Mantenemos el espacio de abajo normal */
-    /*padding-bottom: 15px !important;*/
+    /* 2. Mantener proporción */
+    width: auto !important;
     
+    /* 3. MATAR LA ANIMACIÓN: Esto evita que se "encoja" suavemente */
+    transition: none !important;
+    -webkit-transition: none !important;
+    
+    /* 4. Asegurar que no le afecten los márgenes del tema */
+    margin-top: 0 !important;
+}
+
+/* Opcional: Ajustar el contenedor del logo para que esté centrado verticalmente */
+.navbar-default .navbar-brand {
+    padding: 5px 15px !important; /* Ajusta el primer número si lo ves muy arriba o abajo */
+    height: auto !important;
+    line-height: normal !important;
+}
+
+/* =========================================
+   FIJACIÓN TOTAL DEL LOGO (Cero movimiento)
+   ========================================= */
+
+/* 1. Bloquear el contenedor del logo (la etiqueta <a>) */
+.navbar-default .navbar-brand,
+.navbar-default.navbar-shrink .navbar-brand {
+    /* Define un relleno fijo. Si lo ves muy arriba, aumenta el primer valor (ej: 10px) */
+    padding: 5px 15px !important; 
+    
+    /* Eliminar cualquier margen que cause desplazamiento */
+    margin: 0 !important;
+    
+    /* Asegurar altura de línea constante */
+    line-height: 1 !important; 
+    
+    /* Matar cualquier transición de posición heredada */
+    transition: none !important;
+}
+
+/* 2. Asegurar que la imagen dentro no tenga márgenes extraños */
+.navbar-default .navbar-brand img,
+.navbar-default.navbar-shrink .navbar-brand img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
