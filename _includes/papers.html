@@ -12,34 +12,41 @@
             <div class="col-lg-10 col-lg-offset-1">
                 
                 {% for paper in site.data.papers %}
-                <div class="paper-card">
-                    <div class="row">
-                        <div class="col-md-1 col-sm-2 text-center hidden-xs">
-                            <div class="paper-icon">
-                                <i class="fa-solid fa-scroll"></i>
-                            </div>
-                        </div>
+                <div class="row paper-item" style="margin-bottom: 30px; display: flex; align-items: flex-start;">
+                    
+                    <div class="col-md-2 col-sm-3 text-center">
+                        {% if paper.img %}
+                            <img src="{{ paper.img | prepend: '/img/papers/' | relative_url }}" 
+                                alt="{{ paper.title }} thumbnail" 
+                                class="img-responsive img-rounded" 
+                                style="width: 100%; max-width: 80px; height: auto; box-shadow: 0px 1px 3px rgba(0,0,0,0.2); border: 1px solid #eee; margin: 0 auto;">
+                        {% else %}
+                            <i class="fa-solid fa-file-text fa-3x text-primary" style="opacity: 0.5;"></i>
+                        {% endif %}
+                    </div>
 
-                        <div class="col-md-9 col-sm-8">
-                            <h4 class="paper-title">{{ paper.title }}</h4>
-                            <p class="paper-authors">
-                                <i class="fa-solid fa-users"></i> {{ paper.authors }}
-                            </p>
-                            <span class="paper-badge">
-                                <i class="fa-solid fa-building-columns"></i> {{ paper.conference }}
-                            </span>
-                            <span class="paper-badge year">
-                                <i class="fa-solid fa-calendar-days"></i> {{ paper.year }}
-                            </span>
-                        </div>
-
-                        <div class="col-md-2 col-sm-2 text-center" style="display: flex; align-items: center; justify-content: center; height: 100%;">
-                            <a href="{{ paper.link }}" target="_blank" class="btn btn-primary btn-sm paper-btn">
-                                <i class="fa-solid fa-book-open"></i> Read
-                            </a>
-                        </div>
+                    <div class="col-md-10 col-sm-9" style="padding-left: 20px;">
+                        <h4 style="margin-top: 0; margin-bottom: 5px; font-weight: 700;">{{ paper.title }}</h4>
+                        <p class="text-muted" style="margin-bottom: 5px; font-style: italic;">{{ paper.authors }}</p>
+                        <p class="text-primary" style="margin-bottom: 10px; font-weight: 600;">{{ paper.conference }}</p>
+                        
+                        <ul class="list-inline">
+                            {% if paper.pdf %}
+                            <li><a href="{{ paper.pdf }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-solid fa-file-pdf"></i> PDF</a></li>
+                            {% endif %}
+                            {% if paper.code %}
+                            <li><a href="{{ paper.code }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-brands fa-github"></i> Code</a></li>
+                            {% endif %}
+                            {% if paper.video %}
+                            <li><a href="{{ paper.video }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-brands fa-youtube"></i> Video</a></li>
+                            {% endif %}
+                            {% if paper.website %}
+                            <li><a href="{{ paper.website }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-solid fa-globe"></i> Project Page</a></li>
+                            {% endif %}
+                        </ul>
                     </div>
                 </div>
+                <hr style="margin: 20px 0; border-color: #eee;">
                 {% endfor %}
 
             </div>
