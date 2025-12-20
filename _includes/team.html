@@ -87,7 +87,7 @@
             {% for member in site.data.members.members %}
             <div class="col-xs-6 col-sm-3 col-md-2 text-center" style="margin-bottom: 30px;">
                 
-                <img src="{{ member.img | prepend: '/img/team/ ' | relative_url }}" class="img-responsive img-circle img-centered" alt="{{ member.name }}" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
+                <img src="{{ member.img | prepend: '/img/team/' | relative_url }}" class="img-responsive img-circle img-centered" alt="{{ member.name }}" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid white; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
                 
                 <h5 style="margin-top: 10px; font-size: 14px; font-weight: 700;">{{ member.name }}</h5>
                 
