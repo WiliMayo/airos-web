@@ -1,61 +1,45 @@
 <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Divisions</h2>
-                    <h3 class="section-subheading text-muted">Convergent Innovation: Hardware, Software, and Algorithms.</h3>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Divisions</h2>
+                <h3 class="section-subheading text-muted">Convergent Innovation: Hardware, Software, and Algorithms.</h3>
             </div>
-            
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa-solid fa-robot fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Humanoids</h4>
-                    <p class="text-muted">Development of complex kinematics and bipedal locomotion for robots mimicking human movement.</p>
-                </div>
-                
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa-solid fa-route fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Autonomous Navigation</h4>
-                    <p class="text-muted">SLAM algorithms and trajectory planning using ROS 2 and Lidar.</p>
-                </div>
-                
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa-solid fa-bolt-lightning fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Hybrid Energy</h4>
-                    <p class="text-muted">Battery optimization and sustainable power systems for mobile robotics.</p>
-                </div>
-            </div>
-
-            <div class="row text-center" style="margin-top: 50px;"> 
-                
-                <div class="col-md-4 col-md-offset-2">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa-solid fa-industry fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Smart Industry</h4>
-                    <p class="text-muted">Industrial automation, IoT, and robotic arm control for manufacturing.</p>
-                </div>
-
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Smart Sensors</h4>
-                    <p class="text-muted">Sensor fusion, computer vision, and neural networks for environmental perception.</p>
-                </div>
-            </div>
-            
         </div>
-    </section>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="{{ '/img/departments/humanoides.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle img-centered" alt="Humanoid Robot" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+                <h4 class="service-heading">Humanoids</h4>
+                <p class="text-muted">Development of complex kinematics and bipedal locomotion for robots mimicking human movement.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="{{ '/img/departments/vehiculos-autonomos.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle img-centered" alt="Autonomous Vehicle" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+                <h4 class="service-heading">Autonomous Navigation</h4>
+                <p class="text-muted">SLAM algorithms and trajectory planning using ROS 2 and Lidar.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="{{ '/img/departments/energia-hibrida.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle img-centered" alt="Hybrid Energy System" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+                <h4 class="service-heading">Hybrid Energy</h4>
+                <p class="text-muted">Battery optimization and sustainable power systems for mobile robotics.</p>
+            </div>
+        </div>
+
+        <div class="row text-center" style="margin-top: 30px;">
+            <div class="col-md-4 col-md-offset-2">
+                <img src="{{ '/img/departments/industria-inteligente.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle img-centered" alt="Smart Industry" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+                <h4 class="service-heading">Smart Industry</h4>
+                <p class="text-muted">Industrial automation, IoT, and robotic arm control for manufacturing.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="{{ '/img/departments/sensores-inteligentes.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle img-centered" alt="Smart Sensors" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 20px;">
+                <h4 class="service-heading">Smart Sensors</h4>
+                <p class="text-muted">Sensor fusion, computer vision, and neural networks for environmental perception.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
