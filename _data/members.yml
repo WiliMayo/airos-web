@@ -1,4 +1,15 @@
 # ==============================
+# PARTE 0: ADVISORS (Nueva sección)
+# ==============================
+advisors:
+  - name: "Ph.D. Nabih Pico"
+    role: "Advisor"
+    img: "nabih.jpg"
+    bio: "Profesor titular en ESPOL con más de 10 años de experiencia en robótica móvil y control automático. Ha liderado múltiples proyectos de investigación y mentorea al club AIROS en competencias internacionales."
+    linkedin: "#"
+    github: "#"
+
+# ==============================
 # PARTE 1: DIRECTIVA Y LÍDERES
 # ==============================
 leadership:
@@ -12,11 +23,6 @@ leadership:
   - name: "Héctor La Mota"
     role: "Vice President"
     img: "Hector-La-Mota.jpg"
-    linkedin: "#"
-
-  - name: "Ph.D. Nabih Pico"
-    role: "Advisor"
-    img: "nabih.jpg"
     linkedin: "#"
 
   - name: "Juan Duran"
