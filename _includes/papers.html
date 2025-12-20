@@ -12,28 +12,34 @@
             <div class="col-lg-10 col-lg-offset-1">
                 
                 {% for paper in site.data.papers %}
-                <div class="row paper-item" style="margin-bottom: 30px; display: flex; align-items: flex-start;">
+                <div class="row paper-item" style="margin-bottom: 40px; display: flex; align-items: flex-start;">
                     
-                    <div class="col-md-2 col-sm-3 text-center">
+                    <div class="col-md-3 col-sm-4 text-center">
                         {% if paper.img %}
                             <img src="{{ paper.img | prepend: '/img/papers/' | relative_url }}" 
                                 alt="{{ paper.title }} thumbnail" 
                                 class="img-responsive img-rounded" 
-                                style="width: 100%; max-width: 80px; height: auto; box-shadow: 0px 1px 3px rgba(0,0,0,0.2); border: 1px solid #eee; margin: 0 auto;">
+                                style="width: 100%; max-width: 150px; height: auto; box-shadow: 0px 2px 5px rgba(0,0,0,0.2); border: 1px solid #eee; margin: 0 auto;">
                         {% else %}
-                            <i class="fa-solid fa-file-text fa-3x text-primary" style="opacity: 0.5;"></i>
+                            <i class="fa-solid fa-file-text fa-4x text-primary" style="opacity: 0.5;"></i>
                         {% endif %}
                     </div>
 
-                    <div class="col-md-10 col-sm-9" style="padding-left: 20px;">
-                        <h4 style="margin-top: 0; margin-bottom: 5px; font-weight: 700;">{{ paper.title }}</h4>
+                    <div class="col-md-9 col-sm-8" style="padding-left: 20px;">
+                        <h4 style="margin-top: 0; margin-bottom: 10px; font-weight: 700; font-size: 18px;">{{ paper.title }}</h4>
                         <p class="text-muted" style="margin-bottom: 5px; font-style: italic;">{{ paper.authors }}</p>
-                        <p class="text-primary" style="margin-bottom: 10px; font-weight: 600;">{{ paper.conference }}</p>
+                        <p class="text-primary" style="margin-bottom: 15px; font-weight: 600;">{{ paper.conference }}</p>
                         
-                        <ul class="list-inline">
+                        <ul class="list-inline" style="margin-bottom: 0;">
+                            
                             {% if paper.pdf %}
-                            <li><a href="{{ paper.pdf }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-solid fa-file-pdf"></i> PDF</a></li>
+                            <li>
+                                <a href="{{ paper.pdf }}" class="btn btn-primary btn-sm" target="_blank">
+                                    <i class="fa-solid fa-book-open"></i> Leer
+                                </a>
+                            </li>
                             {% endif %}
+
                             {% if paper.code %}
                             <li><a href="{{ paper.code }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-brands fa-github"></i> Code</a></li>
                             {% endif %}
@@ -46,7 +52,7 @@
                         </ul>
                     </div>
                 </div>
-                <hr style="margin: 20px 0; border-color: #eee;">
+                <hr style="margin: 30px 0; border-color: #f0f0f0;">
                 {% endfor %}
 
             </div>
