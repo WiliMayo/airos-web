@@ -924,10 +924,10 @@ header .intro-text {
     header .intro-text {
         /* La plantilla original usa 300px. 
            Prueba con 150px o 200px para subirlo. */
-        padding-top: 130px !important; 
+        padding-top: 200px !important; 
         
         /* Opcional: Si sientes que hay mucho espacio DEBAJO del logo también */
-        padding-bottom: 0px !important;
+        padding-bottom: 60px !important;
     }
 }
 
