@@ -60,6 +60,13 @@ leads:
     role: "Smart Sensors Director"
     img: "Carlos-Crespo.jpg"
 
+  - name: "William Mayorga"
+    role: "Web Development Director"
+    img: "William-Mayorga.jpg"
+    github: "https://github.com/WiliMayo"
+    linkedin: "https://www.linkedin.com/in/william-ismael-mayorga-mejia-35b308217/"
+    portfolio: "https://wilimayo.github.io/"
+
 #  - name: "Juan Duran"
 #    role: "Director Energía Hibrida"
 #    img: "Juan-Duran.jpg"
@@ -68,12 +75,6 @@ leads:
 # PARTE 4: MIEMBROS DEL CLUB
 # ==============================
 members:
-  - name: "William Mayorga"
-    img: "William-Mayorga.jpg"
-    github: "https://github.com/WiliMayo"
-    linkedin: "https://www.linkedin.com/in/william-ismael-mayorga-mejia-35b308217/"
-    portfolio: "https://wilimayo.github.io/"
-  
   - name: "María López"
     img: "miembro2.jpg"
     github: "#"
