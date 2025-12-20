@@ -50,8 +50,15 @@
             </div>
         </div>
 
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Executive Board</h2>
+                <h3 class="section-subheading text-muted">Steering the vision and strategy of AIROS.</h3>
+            </div>
+        </div>
+
         <div class="row">
-            {% for member in site.data.members.leadership %}
+            {% for member in site.data.members.board %}
             <div class="col-sm-4">
                 <div class="team-member">
                     <img src="{{ member.img | prepend: '/img/team/' | relative_url }}" class="img-responsive img-circle" alt="{{ member.name }}" style="width: 225px; height: 225px; object-fit: cover; margin: 0 auto;">
@@ -72,7 +79,38 @@
                     </ul>
                 </div>
             </div>
-            {% cycle '', '', '<div class="clearfix"></div>' %}
+            {% endfor %}
+        </div>
+
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="font-size: 30px;">Department Leads</h2>
+                <h3 class="section-subheading text-muted">Driving innovation in each technical area.</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for member in site.data.members.leads %}
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="{{ member.img | prepend: '/img/team/' | relative_url }}" class="img-responsive img-circle" alt="{{ member.name }}" style="width: 225px; height: 225px; object-fit: cover; margin: 0 auto;">
+                    
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.role }}</p>
+                    
+                    <ul class="list-inline social-buttons">
+                        {% if member.github %}
+                        <li><a href="{{ member.github }}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        {% endif %}
+                        {% if member.linkedin %}
+                        <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        {% endif %}
+                        {% if member.portfolio %}
+                        <li><a href="{{ member.portfolio }}" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
             {% endfor %}
         </div>
 

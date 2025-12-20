@@ -1,5 +1,5 @@
 # ==============================
-# PARTE 0: ADVISORS (Nueva sección)
+# PARTE 1: ADVISORS
 # ==============================
 advisors:
   - name: "Ph.D. Nabih Pico"
@@ -10,9 +10,9 @@ advisors:
     github: "#"
 
 # ==============================
-# PARTE 1: DIRECTIVA Y LÍDERES
+# PART 2: EXECUTIVE BOARD (Directiva)
 # ==============================
-leadership:
+board:
   - name: "Juan Sánchez"
     role: "President"
     img: "Juan-Sanchez.jpg"
@@ -33,6 +33,10 @@ leadership:
     role: "Secretary"
     img: "Micaela-Anamise.jpg"
 
+# ==============================
+# PART 3: DEPARTMENT LEADS (Directores)
+# ==============================
+leads:
   - name: "Daniel Chávez"
     role: "Humanoids Director"
     img: "Daniel-Chavez.jpg"
@@ -54,9 +58,8 @@ leadership:
 #    role: "Director Energía Hibrida"
 #    img: "Juan-Duran.jpg"
 
-
 # ==============================
-# PARTE 2: MIEMBROS DEL CLUB
+# PARTE 4: MIEMBROS DEL CLUB
 # ==============================
 members:
   - name: "William Mayorga"
@@ -75,7 +78,7 @@ members:
     linkedin: "#"
 
 # ==============================
-# PARTE 3: ALUMNI (Ex-alumnos)
+# PARTE 5: ALUMNI (Ex-alumnos)
 # ==============================
 alumni:
   - name: "Ing. María Pérez"
