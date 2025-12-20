@@ -1079,3 +1079,17 @@ header .intro-text {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+/* =========================================
+   REDUCIR ESPACIO ENTRE HEADER Y ABOUT
+   ========================================= */
+
+/* 1. Reducir el relleno superior de la sección About */
+section#about {
+    padding-top: 40px !important; /* Por defecto suele ser 100px o 150px */
+}
+
+/* 2. (Opcional) Si todavía hay mucho espacio, reduce el margen inferior del Header */
+header .intro-text {
+    padding-bottom: 50px !important; /* Ajusta este valor si es necesario */
+}
