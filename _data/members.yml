@@ -6,8 +6,14 @@ advisors:
     role: "Advisor"
     img: "nabih.jpg"
     bio: "Profesor titular en ESPOL con más de 10 años de experiencia en robótica móvil y control automático. Ha liderado múltiples proyectos de investigación y mentorea al club AIROS en competencias internacionales."
-    linkedin: "#"
-    github: "#"
+    linkedin: "https://www.linkedin.com/in/nabih-pico-9b16a0119/"
+    github: "https://github.com/nabihandres"
+
+  - name: "M.Sc. Efrain Teran"
+    role: "Advisor"
+    img: "teran.jpg"
+    bio: "Profesor en ESPOL."
+    linkedin: "https://www.linkedin.com/in/efrain-teran-875155a6/"
 
 # ==============================
 # PART 2: EXECUTIVE BOARD (Directiva)
