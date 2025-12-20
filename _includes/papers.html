@@ -12,47 +12,49 @@
             <div class="col-lg-10 col-lg-offset-1">
                 
                 {% for paper in site.data.papers %}
-                <div class="row paper-item" style="margin-bottom: 40px; display: flex; align-items: flex-start;">
-                    
-                    <div class="col-md-3 col-sm-4 text-center">
-                        {% if paper.img %}
-                            <img src="{{ paper.img | prepend: '/img/papers/' | relative_url }}" 
-                                alt="{{ paper.title }} thumbnail" 
-                                class="img-responsive img-rounded" 
-                                style="width: 100%; max-width: 150px; height: auto; box-shadow: 0px 2px 5px rgba(0,0,0,0.2); border: 1px solid #eee; margin: 0 auto;">
-                        {% else %}
-                            <i class="fa-solid fa-file-text fa-4x text-primary" style="opacity: 0.5;"></i>
-                        {% endif %}
-                    </div>
-
-                    <div class="col-md-9 col-sm-8" style="padding-left: 20px;">
-                        <h4 style="margin-top: 0; margin-bottom: 10px; font-weight: 700; font-size: 18px;">{{ paper.title }}</h4>
-                        <p class="text-muted" style="margin-bottom: 5px; font-style: italic;">{{ paper.authors }}</p>
-                        <p class="text-primary" style="margin-bottom: 15px; font-weight: 600;">{{ paper.conference }}</p>
+                <div class="paper-card" style="margin-bottom: 30px; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
                         
-                        <ul class="list-inline" style="margin-bottom: 0;">
-                            
-                            {% if paper.pdf %}
-                            <li>
-                                <a href="{{ paper.pdf }}" class="btn btn-primary btn-sm" target="_blank">
-                                    <i class="fa-solid fa-book-open"></i> Leer
-                                </a>
-                            </li>
+                        <div class="col-md-3 col-sm-3 text-center">
+                            {% if paper.img %}
+                                <img src="{{ paper.img | prepend: '/img/papers/' | relative_url }}" 
+                                    alt="{{ paper.title }}" 
+                                    class="img-responsive img-rounded" 
+                                    style="max-height: 120px; width: auto; margin: 0 auto; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                            {% else %}
+                                <div class="paper-icon">
+                                    <i class="fa-solid fa-scroll fa-3x text-muted"></i>
+                                </div>
                             {% endif %}
+                        </div>
 
-                            {% if paper.code %}
-                            <li><a href="{{ paper.code }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-brands fa-github"></i> Code</a></li>
-                            {% endif %}
-                            {% if paper.video %}
-                            <li><a href="{{ paper.video }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-brands fa-youtube"></i> Video</a></li>
-                            {% endif %}
-                            {% if paper.website %}
-                            <li><a href="{{ paper.website }}" class="btn btn-default btn-xs" target="_blank"><i class="fa-solid fa-globe"></i> Project Page</a></li>
-                            {% endif %}
-                        </ul>
+                        <div class="col-md-7 col-sm-6">
+                            <h4 class="paper-title" style="margin-top: 10px; font-weight: 700;">{{ paper.title }}</h4>
+                            
+                            <p class="paper-authors" style="color: #777; font-style: italic; margin-bottom: 10px;">
+                                <i class="fa-solid fa-users"></i> {{ paper.authors }}
+                            </p>
+                            
+                            <div style="margin-top: 5px;">
+                                <span class="paper-badge label label-default" style="margin-right: 5px; font-size: 12px; padding: 5px 10px;">
+                                    <i class="fa-solid fa-building-columns"></i> {{ paper.conference }}
+                                </span>
+                                {% if paper.year %}
+                                <span class="paper-badge year label label-primary" style="font-size: 12px; padding: 5px 10px;">
+                                    <i class="fa-solid fa-calendar-days"></i> {{ paper.year }}
+                                </span>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-3 text-center" style="margin-top: 10px;">
+                            <a href="{{ paper.link }}" target="_blank" class="btn btn-primary paper-btn">
+                                <i class="fa-solid fa-book-open"></i> Read
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
-                <hr style="margin: 30px 0; border-color: #f0f0f0;">
                 {% endfor %}
 
             </div>
