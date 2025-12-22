@@ -85,3 +85,8 @@ alumni:
     position: "Robotics Engineer at Tesla"
     img: "carlos-ruiz.jpg"
     github: "#"
+
+  - name: "Msc. Carlos Rivera"
+    position: "Robotics Engineer at Tesla"
+    img: "carlos-rivera.jpg"
+    github: "#"
