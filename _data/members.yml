@@ -5,14 +5,14 @@ advisors:
   - name: "Ph.D. Nabih Pico"
     role: "Advisor"
     img: "nabih.jpg"
-    bio: "Profesor titular en ESPOL con más de 10 años de experiencia en robótica móvil y control automático. Ha liderado múltiples proyectos de investigación y mentorea al club AIROS en competencias internacionales."
+    bio: "(Texto preliminar) Profesor titular en ESPOL con más de 10 años de experiencia en robótica móvil y control automático. Ha liderado múltiples proyectos de investigación y mentorea al club AIROS en competencias internacionales."
     linkedin: "https://www.linkedin.com/in/nabih-pico-9b16a0119/"
     github: "https://github.com/nabihandres"
 
   - name: "M.Sc. Efrain Teran"
     role: "Advisor"
     img: "teran.jpg"
-    bio: "Profesor en ESPOL."
+    bio: "(Texto preliminar) Coordinador de Ingeniería Mecatrónica en ESPOL y profesor con amplia experiencia en diseño de sistemas mecanicos. Ha sido un pilar fundamental en el desarrollo de facultad de FIMCP y en la formación de sus estudiantes."
     linkedin: "https://www.linkedin.com/in/efrain-teran-875155a6/"
 
 # ==============================
