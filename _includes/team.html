@@ -8,39 +8,81 @@
             </div>
         </div>
 
-        {% for member in site.data.members.advisors %}
-        <div class="row team-member-row" style="margin-bottom: 50px; display: flex; align-items: center; flex-wrap: wrap;">
+        <div class="row team-member-row" style="margin-bottom: 50px; display: flex; align-items: flex-start; flex-wrap: wrap;">
             
             <div class="col-md-4 col-sm-12 text-center">
                 <div class="team-member" style="margin-bottom: 0;">
-                    <img src="{{ member.img | prepend: '/img/team/' | relative_url }}" class="img-responsive img-circle" alt="{{ member.name }}" style="width: 200px; height: 200px; object-fit: cover; margin: 0 auto;">
+                    <img src="{{ '/img/team/Nabih-Pico.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle" alt="Ph.D. Nabih Pico" style="width: 200px; height: 200px; object-fit: cover; margin: 0 auto;">
                     
-                    <h4 style="margin-top: 20px;">{{ member.name }}</h4>
-                    <p class="text-muted">{{ member.role }}</p>
+                    <h4 style="margin-top: 20px;">Ph.D. Nabih Pico</h4>
+                    <p class="text-muted">Advisor</p>
                     
                     <ul class="list-inline social-buttons">
-                        {% if member.github %}
-                        <li><a href="{{ member.github }}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                        {% endif %}
-                        {% if member.linkedin %}
-                        <li><a href="{{ member.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        {% endif %}
-                        {% if member.portfolio %}
-                        <li><a href="{{ member.portfolio }}" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
-                        {% endif %}
+                        <li><a href="https://www.linkedin.com/in/nabih-pico-9b16a0119/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-8 col-sm-12 text-left">
-                <p class="large text-muted" style="font-size: 16px; line-height: 1.6;">
-                    {{ member.bio }}
+                
+                <p style="margin-bottom: 20px; font-size: 16px;">
+                    <strong class="text-primary">Email:</strong> <a href="mailto:npico@espol.edu.ec" style="color: #333;">npico@espol.edu.ec</a>
                 </p>
+
+                <h5 style="font-weight: 700; margin-bottom: 10px;">Education:</h5>
+                <ul class="text-muted" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px; line-height: 1.6;">
+                    <li>Ph.D. in Mechanical Engineering, Sungkyunkwan University, June 2022.</li>
+                    <li>B.S. in Electronics and Telecommunications, November 2013.</li>
+                </ul>
+
+                <h5 style="font-weight: 700; margin-bottom: 10px;">Experience:</h5>
+                <ul class="text-muted" style="list-style-type: disc; padding-left: 20px; line-height: 1.6;">
+                    <li>Research Professor, Department of Mechanical Engineering, Sungkyunkwan University (2025-present).</li>
+                    <li>Assistant Professor, Department of Mechanical Engineering, ESPOL, part-time (2024-present).</li>
+                    <li>Post-doctoral fellow, Department of Mechanical Engineering, Sungkyunkwan University (2022-2025).</li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <hr style="width: 80%; border-color: #eee; margin-bottom: 50px;">
+
+        <div class="row team-member-row" style="margin-bottom: 50px; display: flex; align-items: flex-start; flex-wrap: wrap;">
+            
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="team-member" style="margin-bottom: 0;">
+                    <img src="{{ '/img/team/Efrain-Teran.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle" alt="M.Sc. Efrain Teran" style="width: 200px; height: 200px; object-fit: cover; margin: 0 auto;">
+                    
+                    <h4 style="margin-top: 20px;">M.Sc. Efrain Teran</h4>
+                    <p class="text-muted">Advisor</p>
+                    
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.linkedin.com/in/efrain-teran-875155a6/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
             </div>
 
+            <div class="col-md-8 col-sm-12 text-left">
+                
+                <p style="margin-bottom: 20px; font-size: 16px;">
+                    <strong class="text-primary">Email:</strong> <a href="mailto:eaterac@espol.edu.ec" style="color: #333;">eaterac@espol.edu.ec</a>
+                </p>
+
+                <h5 style="font-weight: 700; margin-bottom: 10px;">Education:</h5>
+                <ul class="text-muted" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px; line-height: 1.6;">
+                    <li>Master's degree in Mechanical Engineering, Georgia Institute of Technology (2013 - 2014).</li>
+                    <li>B.S. in Mechanical Engineering, Escuela Superior Politécnica del Litoral (2004 - 2009).</li>
+                </ul>
+
+                <h5 style="font-weight: 700; margin-bottom: 10px;">Experience:</h5>
+                <ul class="text-muted" style="list-style-type: disc; padding-left: 20px; line-height: 1.6;">
+                    <li>Mechatronics Engineering Coordinator, Escuela Superior Politécnica del Litoral (May 2015 - Present).</li>
+                    <li>Research Assistant, Biorobotics and Human Modeling Lab - Georgia Tech (Jan 2013 - Dec 2014).</li>
+                    <li>Head of Design, Ingeniería de la Tierra S.A. - INTISA (Mar 2009 - Mar 2012).</li>
+                </ul>
+                
+            </div>
         </div>
-        {% unless forloop.last %}<hr style="width: 50%; border-color: #ddd;">{% endunless %}
-        {% endfor %}
 
         <div class="row" style="margin-top: 80px;">
             <div class="col-lg-12 text-center">
