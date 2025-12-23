@@ -67,6 +67,13 @@ members:
     img: "miembro3.jpg"
     linkedin: "#"
 
+  - name: "Estefano Barquet"
+    img: "miembro2.jpg"
+    github: "https://github.com/estefanobarquet"
+    linkedin: "https://www.linkedin.com/in/estefano-barquet-vera-365541321/"
+    portfolio: "https://estefanobarquet.github.io/"
+
+
 # ==============================
 # PARTE 4: ALUMNI (Ex-alumnos)
 # ==============================
