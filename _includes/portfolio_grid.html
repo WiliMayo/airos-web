@@ -1,22 +1,29 @@
 <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Activities</h2>
-                    <h3 class="section-subheading text-muted">Innovation in action: Projects, Events, and Workshops.</h3>
-                </div>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Activities</h2>
+                <h3 class="section-subheading text-muted">Innovation in action: Projects, Events, and Workshops.</h3>
             </div>
-            <div class="row">
+        </div>
+
+        <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;"> 
+            
             {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-4 col-sm-6 portfolio-item" style="margin-bottom: 30px;"> <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        
+                        <img src="{{ site.baseurl }}/img/portfolio/{{ post.thumbnail }}" 
+                             class="img-responsive img-centered" 
+                             alt=""
+                             style="width: 100%; height: 260px; object-fit: cover;">
                     </a>
+                    
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
                         
@@ -34,6 +41,7 @@
                     </div>
                 </div>
             {% endfor %}
-            </div>
+            
         </div>
-    </section>
+    </div>
+</section>
