@@ -81,12 +81,6 @@ members:
  #   img: "miembro3.jpg"
   #  linkedin: "#"
 
-  - name: "Estefano Barquet"
-    img: "miembro2.jpg"
-    github: "https://github.com/estefanobarquet"
-    linkedin: "https://www.linkedin.com/in/estefano-barquet-vera-365541321/"
-    portfolio: "https://estefanobarquet.github.io/"
-
   - name: "Andrea Castillo"
     img: "Andrea-Castillo.jpg"
     github: "https://github.com/AndreaZion"
@@ -123,6 +117,12 @@ members:
     github: "https://github.com/danielelias2985"
     linkedin: "http://www.linkedin.com/in/daniel-elias-145558297"
     #portfolio: "#"
+
+  - name: "Estefano Barquet"
+    img: "Estefano-Barquet.jpg"
+    github: "https://github.com/estefanobarquet"
+    linkedin: "https://www.linkedin.com/in/estefano-barquet-vera-365541321/"
+    portfolio: "https://estefanobarquet.github.io/"
 
 #no info no foto
 #  - name: "Gabriela Soledad Donoso Guisamano"
