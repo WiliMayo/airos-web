@@ -74,10 +74,9 @@ members:
     portfolio: "https://estefanobarquet.github.io/"
 
   - name: "Andrea Castillo"
-    img: "miembro2.jpg"
-    github: "#"
-    linkedin: "#"
-    portfolio: "#"
+    img: "Andrea-Castillo.jpg"
+    github: "https://github.com/AndreaZion"
+    linkedin: "https://www.linkedin.com/in/andrea-valeria-castillo-puebla-587479320/?trk=contact-info"
 
   - name: "Andree Gabriel Fonseca Medina"
     img: "miembro2.jpg"
